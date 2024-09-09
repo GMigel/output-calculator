@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 # COPY . /app
 # COPY eth-server-startup.service /etc/init.d/
 
-WORKDIR /home/mode-manager/
+WORKDIR /home/output-calculator/
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 
